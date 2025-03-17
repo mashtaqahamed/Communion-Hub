@@ -110,6 +110,7 @@ body {
   background: #0056b3;
 }
 
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .navbar {

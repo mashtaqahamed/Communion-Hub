@@ -62,15 +62,21 @@ function Events() {
 
       <h3>Add New Event</h3>
       <form className="event-form">
+        <label> Title </label>
         <input type="text" placeholder="Title" value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
+        <label> Date </label>
         <input type="date" value={newEvent.date} onChange={(e) => setNewEvent({ ...newEvent, date: e.target.value })} />
+        <label> Location </label>
         <input type="text" placeholder="Location" value={newEvent.location} onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })} />
+        <label>Select</label>
         <select value={newEvent.category} onChange={(e) => setNewEvent({ ...newEvent, category: e.target.value })}>
           <option value="Religious">Religious</option>
           <option value="Social">Social</option>
           <option value="Charity">Charity</option>
         </select>
+        <label>Description</label>
         <textarea placeholder="Description" value={newEvent.description} onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}></textarea>
+       <br/>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}

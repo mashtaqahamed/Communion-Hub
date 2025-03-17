@@ -33,7 +33,7 @@ communion-app/
 
 🛠 Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/communion-app.git
+git clone https://github.com/mashtaqahamed/Communion-Hub
 cd communion-app
 
 2️⃣ Install Dependencies
